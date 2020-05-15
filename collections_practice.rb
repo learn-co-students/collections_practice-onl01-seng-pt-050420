@@ -12,10 +12,7 @@ def sort_array_char_count(arrays)
 end
 
 def swap_elements(array)
-    first_variable = array [1]
-    second_variable = array [2]
-  array [1] = second_variable
-  array [2] = first_variable
+  array[1], array[2] = array[2], array[1]
   array
 end
 
