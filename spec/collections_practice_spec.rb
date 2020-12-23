@@ -1,6 +1,4 @@
-require 'spec_helper'
-
-describe 'collections practice' do
+swap_elements_from_to(["a", "b", "c"],0,2)
 
   # Question 1
   describe '#sort_array_asc' do
